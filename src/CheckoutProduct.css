@@ -1,0 +1,33 @@
+.checkout_product{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.chackoutproduct_info{
+    padding-left: 20px;
+}
+.chackoutproduct_info > button{
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    padding: 5px;
+    border-color: #a88734 #9c7e31 #846a29;
+    border-radius: 5px;
+}
+.checkout_image{
+    object-fit: contain;
+    width: 180px;
+    width: 180px;
+}
+.chackoutProduct_rating{
+    display: flex;
+}
+.chackoutProduct_title{
+    font-size: 17px;
+    font-weight: 800;
+}
+.chackoutproduct_info>button:hover{
+    background-color: #a88734;
+}

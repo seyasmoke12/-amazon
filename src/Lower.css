@@ -1,0 +1,29 @@
+.lower_container {
+    background-color: #232f3e;
+}
+
+.lower_container ul {
+    display: flex;
+}
+
+.lower_container li {
+    margin-left: 10px;
+    display: flex;
+    color: white;
+    font-size: medium;
+}
+
+.lower_container li:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+    gap: 5px;
+}
+
+.lower_container p {
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+.lower_container ul li {
+    padding: 8px;
+}

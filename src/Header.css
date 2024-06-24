@@ -1,0 +1,95 @@
+.hader_logo{
+    width: 100px;
+    margin: 0 20px;
+    object-fit: contain;
+    margin-top: 18px;
+}
+.custom_hader:hover{
+    border: 1px solid white;
+}
+.hader{
+    
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    z-index: 100;
+    display: flex;
+    top: 0;
+    width: 100%;
+}
+.header_optionBasket:hover{
+    border: 1px solid white;
+    padding: 5px 0px;
+}
+.custom_login{
+    font-weight: bold;
+    margin-top: 4px;
+}
+.header_obtion{
+    margin-top: 7px;
+}
+
+
+.custom_link{
+    margin-right: 15px;
+}
+.custom_link svg{
+    margin-right: 5px;
+}
+.header_searchIcon:hover{
+    background-color: #e7ac5f;
+}
+.header_obtion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    color: white;
+    
+}
+.custom_link{
+    text-decoration: none;
+}
+.header_optionBasket{
+    margin-top: 7px;
+}
+.custom_link:hover{
+    color: inherit;
+}
+
+.header_obtion:hover{
+    border: 1px solid white;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header_optionLineOne{
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+
+.header_optionLineTwo{
+    font-weight: bold;
+    margin-top: 2px;
+}
+.header_optionBasket{
+    align-items: center;
+    color: white;
+    display: flex;
+}
+.header_basketcount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 700px) {
+    .hader{
+        display: flex;
+        flex-direction: column !important;
+    }
+        .lower_container ul li:not(:first-child) {
+            display: none;
+        }
+}

@@ -1,0 +1,76 @@
+.login_logo{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.login{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_container{
+    width: 360px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+.login_container h1{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.login_container > form > h5{
+    margin-bottom: 5px;
+}
+.login_container form input{
+    height: 30px;
+    background-color: white;
+    width: 98%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1.5px solid rgb(150, 149, 149);
+}
+.login_container form input:focus{
+    outline: 3px solid skyblue;
+}
+.login_container p{
+    margin-bottom: 15px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.login_signInBotton{
+    background-color: rgb(247, 202, 0);
+    width: 100%;
+    height: 35px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: darkgray;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.login_signInBotton:hover{
+    background-color: rgb(217, 178, 3);
+}
+
+.login_registerButton{
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(222, 229, 229);
+    border-color: lightgray;
+    cursor: pointer;
+}
+.login_registerButton:hover{
+    background-color: rgb(205, 211, 211);
+}
