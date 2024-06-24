@@ -5,12 +5,12 @@ import 'firebase/compat/auth'
 import 'firebase/compat/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD5ZeXgGpGc_1nP9F6e5dfOl1mMhZpRXUg",
-  authDomain: "clone-988e6.firebaseapp.com",
-  projectId: "clone-988e6",
-  storageBucket: "clone-988e6.appspot.com",
-  messagingSenderId: "41658058843",
-  appId: "1:41658058843:web:12bbfa21c9afc59faa177e"
+  apiKey: "AIzaSyCkX-E1sBArM6vgI7R8-jth9cqZcw65YKA",
+  authDomain: "ama-clone-bcf40.firebaseapp.com",
+  projectId: "ama-clone-bcf40",
+  storageBucket: "ama-clone-bcf40.appspot.com",
+  messagingSenderId: "715880247320",
+  appId: "1:715880247320:web:2e8e8efb0e0db16ce8936d"
 };
 
 // Initialize Firebase
